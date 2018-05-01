@@ -1,4 +1,4 @@
-+   This is a port of Matlab code over to C++
++   This is a port of Matlab code over to C++. Original matlab code is in matlab subdirectory.
 +   This is a study in SABR.
 +   This C++ code does not require any additional libraries.
 
