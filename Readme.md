@@ -22,7 +22,7 @@
   |  0.5	|	27.086116	|	27.737585	|	28.776021	|	29.999951	|	31.281185	|	32.551056	|	33.776878	
   |  0.75	|	24.040084	|	25.97829	|	28.030273	|	29.999873	|	31.827825	|	33.507644	|	35.050007	
 																	
-+   Alpha Parameter Values used by SABR Black-76 Equivalent Volatilies, above:
++   Alpha Parameter Values used by SABR Black-76 Equivalent Volatilities, above:
 																
   | p	    |	X=70	    |	X=80	    |	X=90	    |	X=100	    |	X=110	    |	X=120	    |	X=130	
   |-------- | ------------- | ---------     | ---------     | ---------     | ---------     | ---------     | --------- 
