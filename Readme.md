@@ -8,7 +8,7 @@
 	 
 +	 =====================================================
 	 
-+SABR Black-76 Equivalent Volatilies (%). Haug Book pg 270:
++SABR Black-76 Equivalent Volatilies (%).   Results from Haug Book pg 270 (Agrees when rounded to two decimals):
 
   | p	    |	X=70	    |	X=80	    |	X=90	    |	X=100	    |	X=110	    |	X=120	    |	X=130	
   |-------- | ------------- | ---------     | ---------     | ---------     | ---------     | ---------     | --------- 
