@@ -1,9 +1,9 @@
-+This is a port of Matlab code over to C++
-+This is a study in SABR.
-+This C++ code does not require any additional libraries.
++   This is a port of Matlab code over to C++
++   This is a study in SABR.
++   This C++ code does not require any additional libraries.
 
-+Issues:
-+(1)  Results in Octave vs C++ VS2017 
++   Issues:
++   (1)  Results in Octave vs C++ VS2017 
 +	 Differences in decimals.  Have not identified yet why?
 	 
 	 
