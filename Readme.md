@@ -2,7 +2,7 @@
 +This is a study in SABR.
 
 +Issues:
-+(1)  Results in Octave vs C++ VS2015 
++(1)  Results in Octave vs C++ VS2017 
 +	 Differences in decimals.  Have not identified yet why?
 	 
 	 
