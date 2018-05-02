@@ -1,31 +1,31 @@
-* SABR: Stochastic alpha beta rho
+#SABR: Stochastic alpha beta rho
 
-+   This is a port of Matlab code over to C++. Original matlab code is in matlab subdirectory.
-+   This is a study in SABR.
-+   This C++ code does not require any additional libraries.
+	+   This is a port of Matlab code over to C++. Original matlab code is in matlab subdirectory.
+	+   This is a study in SABR.
+	+   This C++ code does not require any additional libraries.
 
-+   Issues:
-+   (1)  Results in Octave vs C++ VS2017 
-+	 Differences in decimals.  Have not identified yet why?
+#Issues:
+	+   (1)  Results in Octave vs C++ VS2017 
+	+	 Differences in decimals.  Have not identified yet why?
 
-* (1) This example first solves for SABR's alpha with the following constants:
+#(1) This example first solves for SABR's alpha with the following constants:
 
-* F = 100;            % Futures price
-* T = 0.5;            % Maturity in years   
-* b = 0.9999;         % beta SABR parameter
-* v = 0.5;            % vol-of-vol SABR parameter
-* ATMvol = 0.30;      % Market ATM volatility
+	* F = 100;            % Futures price
+	* T = 0.5;            % Maturity in years   
+	* b = 0.9999;         % beta SABR parameter
+	* v = 0.5;            % vol-of-vol SABR parameter
+	* ATMvol = 0.30;      % Market ATM volatility
 
 * Computation loops across these strikes and correlation levels
-* K   = 70 80 90 100 110 120 130
-* rho = -0.75 -0.50 -0.25 0.00 0.25 0.50 0.75;
+	* K   = 70 80 90 100 110 120 130
+	* rho = -0.75 -0.50 -0.25 0.00 0.25 0.50 0.75;
 
 * Constants for Black 76 only
-* r = .02
+	* r = .02
 
-* (2) Then SABR volatility is then computed with alpha's and constants
+#(2) Then SABR volatility is then computed with alpha's and constants
 
-* (3) Black 76 Call/Put and PutCall Parity is computed with SABR vol.
+#(3) Black 76 Call/Put and PutCall Parity is computed with SABR vol.
 	 
 +	 =====================================================
 +    Below are results from building and running this C++ console application.
